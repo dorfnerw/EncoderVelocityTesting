@@ -47,9 +47,9 @@
           <BaseType GUID="{8007ae3b-86bb-40f2-b385-ef87fcc239a4}">TcTraceLevel</BaseType>
           <PTCID>#x03002103</PTCID>
           <ContextId>1</ContextId>
-        </Parameter>
+        </Parameter><Parameter CreateSymbol="true" OnlineParameter="true"><Name>PreviousEncoderPosition</Name><BaseType GUID="{18071995-0000-0000-0000-000000000009}">DINT</BaseType><PTCID>#x00000001</PTCID><ContextId>1</ContextId></Parameter><Parameter CreateSymbol="true" OnlineParameter="true"><Name>BadDataCounter</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType><PTCID>#x00000002</PTCID><ContextId>1</ContextId></Parameter><Parameter CreateSymbol="true" OnlineParameter="true"><Name>Started</Name><BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType><PTCID>#x00000003</PTCID><ContextId>1</ContextId></Parameter>
       </Parameters>
-      <DataAreas />
+      <DataAreas ><DataArea><AreaNo AreaType="InputDst" CreateSymbols="true">1</AreaNo><Name>Inputs</Name><ContextId>1</ContextId><Symbol CreateSymbol="true"><Name>CurrentEncoderPosition</Name><BaseType GUID="{18071995-0000-0000-0000-000000000009}">DINT</BaseType></Symbol></DataArea></DataAreas>
       <InterfacePointers>
         <InterfacePointer>
           <PTCID>#x03002060</PTCID>
