@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HmiForControllingThings"
         mc:Ignorable="d"
-        Title="MainWindow" Height="129.776" Width="247.923" Loaded="Window_Loaded" Closing="Window_Closing">
+        Title="MainWindow" Height="151.776" Width="236.323" Loaded="Window_Loaded" Closing="Window_Closing">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="#FF7581F6" Offset="0"/>
             <GradientStop Color="#FFB3FFD0" Offset="1"/>
         </LinearGradientBrush>
     </Window.Background>
-    <Grid>
+    <Grid Margin="0,25,0,0">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
